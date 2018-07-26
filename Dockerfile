@@ -52,6 +52,7 @@ RUN dpkg --add-architecture i386 \
     clang \
     imagemagick \
     awscli \
+    g++ \
 # For PPAs
     software-properties-common \
 # Build tools
