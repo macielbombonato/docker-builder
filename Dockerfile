@@ -4,10 +4,13 @@ LABEL maintainer "Maciel Escudero Bombonato <maciel.bombonato@gmail.com>"
 
 USER root
 
+# Update certificates
+RUN update-ca-certificates
+
 # ------------------------------------------------------
 # --- Base pre-installation
 
-# --- Remove another maven installations and prepare to 
+# --- Remove another maven installations and prepare to
 # install required packages
 
 # Generate proper EN US UTF-8 locale
@@ -35,11 +38,14 @@ RUN dpkg --add-architecture i386 \
     python \
     python-dev \
     python-pip \
+# Ruby
+    ruby \
 # Common, useful
     libssl-dev \
     autoconf \
     libtool \
     build-essential \
+    make \
     zip \
     unzip \
     tree \
