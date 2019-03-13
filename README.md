@@ -1,6 +1,11 @@
-# docker-builder
+# Docker Builder
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://travis-ci.org/macielbombonato/docker-builder.svg?branch=master)](https://travis-ci.org/macielbombonato/docker-builder)
+
+## Docker hub
+
+Para acessar o hub da imagem [clique aqui](https://hub.docker.com/r/macielbombonato/docker-builder).
+  
   
 ---  
   
