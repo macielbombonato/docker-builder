@@ -65,7 +65,8 @@ RUN dpkg --add-architecture i386 \
     libgcc1:i386 \
     libncurses5:i386 \
     libz1:i386 \
-    zlib1g:i386
+    zlib1g:i386 \
+ && rm -rf /var/lib/apt/lists/*
 
 # Cleaning
 RUN apt-get clean --yes
